@@ -2,7 +2,7 @@ node_modules/
 ./node_modules/
 idea/
 ./idea/
-dist/
-./dist/
+src/
+./src/
 /package-lock.json
 /yarn.lock
