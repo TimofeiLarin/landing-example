@@ -1,3 +1,5 @@
+## **GitHab page:**
+**[Landing](https://timofeilarin.github.io/landing-example/)**
 
 ## **Start using for a new project:**
 Run to install dependencies:
