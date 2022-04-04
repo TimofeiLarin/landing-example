@@ -1,8 +1,0 @@
-node_modules/
-./node_modules/
-idea/
-./idea/
-src/
-./src/
-/package-lock.json
-/yarn.lock
