@@ -1,0 +1,18 @@
+-
+    var skills = [
+        {imageUrl: "skills_ps.png", name1: "Adobe", name2: "Photoshop", starsUrl: "skills_fourStars.svg" },
+        {imageUrl: "skills_ai.png", name1: "Adobe", name2: "Illustrator", starsUrl: "skills_threeStars.svg" },
+        {imageUrl: "skills_ae.png", name1: "Adobe", name2: "After Effects", starsUrl: "skills_fourStars.svg" },
+        {imageUrl: "skills_figma.png", name1: "Figma", starsUrl: "skills_fourStars.svg" },
+    ];
+
+mixin skills_grade
+    .skills_grade
+        for inner in skills
+            div.skill
+                +image(inner.imageUrl, inner.name)
+                div.text
+                    p=inner.name1
+                    if inner.name2 
+                        p=inner.name2
+                +icon(inner.starsUrl, 'stars')

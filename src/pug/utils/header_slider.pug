@@ -1,0 +1,18 @@
+-
+    var items = [
+        {imagename: "header_slider_ph_1.jpg"},
+        {imagename: "header_slider_ph_2.jpg"},
+        {imagename: "header_slider_ph_3.jpg"},
+        {imagename: "header_slider_ph_4.jpg"},
+        {imagename: "header_slider_ph_5.jpg"},
+        {imagename: "header_slider_ph_6.jpg"},
+    ];
+mixin header_slider
+    .header_slider
+      .header_slider_wrapper
+        .slides
+          for inner in items
+            div.slide
+              +image(inner.imagename, 'photo', '944px')
+      button.header_slider_prev.header_slider_btn
+      button.header_slider_next.header_slider_btn

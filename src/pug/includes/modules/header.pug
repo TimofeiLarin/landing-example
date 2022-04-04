@@ -1,0 +1,21 @@
+header.header
+  .container
+    +header_nav
+    .header_info
+      h1.header_info_item 
+        div Denis
+        div Novik
+      p.header_info_item 
+        |UX | UI designer
+        br
+        |24 years old, Minsk
+      p.header_info_item.header_lang
+        span RU 
+        || 
+        span.active ENG
+    +header_slider
+    .header_img_mobile
+      +image('header_img_mobile.jpg', 'photo author')
+    +header_burger
+    button.header_burger_btn
+      +icon('header_mobile_burger.svg', 'burger button')

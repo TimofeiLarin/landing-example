@@ -1,0 +1,46 @@
+.skills {
+  padding: 82px 0 105px;
+  &_text {
+    margin-top: 57px;
+    text-align: center;
+  }
+  &_grade {
+    margin-top: 91px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 75px;
+    .skill {
+      text-align: center;
+      .text {
+        margin: 14px 0 35px;
+        p {
+          color: $gray;
+          font-size: 14px;
+          line-height: 17px;
+        }
+      }
+      &:last-of-type img:last-of-type {
+        margin-top: 18px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 960px) {
+  .skills_grade {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 420px) {
+  .skills {
+    padding: 77px 0 101px;
+    &_text {
+      margin-top: 38px;
+    }
+    &_grade {
+      margin-top: 80px;
+    }
+  }
+  .skills_grade {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
