@@ -1,5 +1,3 @@
-## **GitHab page:**
-**[Landing](https://)**
 
 ## **Start using for a new project:**
 Run to install dependencies:
